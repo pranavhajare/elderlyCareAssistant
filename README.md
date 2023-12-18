@@ -13,31 +13,31 @@ Elderly Care Assistance is a web application designed to provide support and rem
 ## Features
 
 ### Medicine Reminder
-- Add medication details, including name, dosage, and timing.
-- View and manage the list of added medications.
+1. Add medication details, including name, dosage, and timing.
+2. View and manage the list of added medications.
 
 ### Exercise Reminder
-- Set exercise routines with different types and durations.
-- Start and reset exercise timers.
-- Receive motivational messages during exercise routines.
+1. Set exercise routines with different types and durations.
+2. Start and reset exercise timers.
+3. Receive motivational messages during exercise routines.
 
 ### SOS Button
-..* Confirm before sending an SOS alert.
-..* Provide emergency assistance with a click of a button.
+1. Confirm before sending an SOS alert.
+2. Provide emergency assistance with a click of a button.
 
 ## Usage
 ### Fill in the details in the Medicine Reminder form.
-..*Click "Add Medication" to add the medication to the list.
-..*Exercise Reminder:
+1. Click "Add Medication" to add the medication to the list.
+2. Exercise Reminder:
 
 ### Choose the exercise type and duration in the Exercise Reminder form.
-..*Click "Set Exercise Routine" to start the exercise timer.
-..*Click "Start Exercise" to begin the exercise routine.
-..*Click "Reset Timer" to reset the exercise timer.
+1. Click "Set Exercise Routine" to start the exercise timer.
+2. Click "Start Exercise" to begin the exercise routine.
+3. Click "Reset Timer" to reset the exercise timer.
 
 ### SOS Button:
-..*Click the "SOS" button to confirm sending an SOS alert.
-..*Choose "Yes" to send the alert or "No" to cancel.
+1. Click the "SOS" button to confirm sending an SOS alert.
+2. Choose "Yes" to send the alert or "No" to cancel.
 
 ## Contributing
 Contributions are welcome! If you have any suggestions, improvements, or new features, feel free to submit a pull request.
