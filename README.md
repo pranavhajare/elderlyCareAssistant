@@ -2,9 +2,14 @@
 
 Elderly Care Assistance is a web application designed to provide support and reminders for elderly individuals. It includes features for medicine reminders, exercise routines, and an SOS button for emergency situations.
 
+## Problem Statement
+![Screenshot 2023-12-18 161433](https://github.com/pranavhajare/elderlyCareAssistant/assets/139987736/b5239523-16f1-4fe4-81c8-2c8c2320c391)
+
 
 ## Page is live at 
 https://pranavhajare.github.io/elderlyCareAssistant/
+
+
 ## Table of Contents
 
 - [Features](#features)
