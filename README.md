@@ -26,26 +26,24 @@ Elderly Care Assistance is a web application designed to provide support and rem
 - Provide emergency assistance with a click of a button.
 
 ## Usage
-Medicine Reminder:
-
--Fill in the details in the Medicine Reminder form.
+### Fill in the details in the Medicine Reminder form.
 -Click "Add Medication" to add the medication to the list.
 -Exercise Reminder:
 
-Choose the exercise type and duration in the Exercise Reminder form.
+### Choose the exercise type and duration in the Exercise Reminder form.
 -Click "Set Exercise Routine" to start the exercise timer.
 -Click "Start Exercise" to begin the exercise routine.
 -Click "Reset Timer" to reset the exercise timer.
 
-SOS Button:
+### SOS Button:
 -Click the "SOS" button to confirm sending an SOS alert.
 -Choose "Yes" to send the alert or "No" to cancel.
 
 ## Contributing
 Contributions are welcome! If you have any suggestions, improvements, or new features, feel free to submit a pull request.
 
-Fork the repository.
-Create a new branch: git checkout -b feature/new-feature.
-Make your changes and commit them: git commit -m 'Add new feature'.
-Push to the branch: git push origin feature/new-feature.
-Submit a pull request.
+1. Fork the repository.
+2. Create a new branch: git checkout -b feature/new-feature.
+3. Make your changes and commit them: git commit -m 'Add new feature'.
+4. Push to the branch: git push origin feature/new-feature.
+5. Submit a pull request.
