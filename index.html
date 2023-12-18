@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Elderly Care Assistance</title>
+  </head>
+  <body>
+    <header>
+      <h1>Elderly Care Assistance</h1>
+      <div class="wrapper">
+        <marquee behavior="alternate"><span class="marquee">Hi, Sunita Sharma. This is your personal medicare assistant.</span></marquee>
+        </div>
+    </header>
+    <main>
+      <div class="medication">
+        <h2>Medicine Reminder</h2>
+        
+    <form id="medicineForm">
+        <label for="medName">Medication Name:</label>
+        <input type="text" id="medName" required>
+
+        <label for="medDosage">Dosage:</label>
+        <input type="text" id="medDosage" required>
+
+        <label for="medTiming">Timing:</label>
+        <input type="time" id="medTiming" required>
+
+        <button type="button" onclick="addMedication()">Add Medication</button>
+    </form>
+
+    <div id="medicationList"></div>
+</div>
+
+      </div>
+      <div class="exercise">
+        <h2>Exercise Reminder</h2>
+    <form id="exerciseForm">
+        <label for="exerciseType">Exercise Type:</label>
+        <select id="exerciseType" required>
+            <option value="walking">Walking</option>
+            <option value="stretching">Stretching</option>
+            <option value="aerobics">Aerobics</option>
+            <option value="yoga">Yoga</option>
+            <option value="cycling">Cycling</option>
+            <option value="meditation">Meditation</option>
+            <option value="BreathingExercise">Breathing Exercise</option>
+
+        </select>
+
+        <label for="exerciseDuration">Duration (minutes):</label>
+        <input type="number" id="exerciseDuration" min="1" required>
+
+        <button type="button" onclick="setExerciseRoutine()">Set Exercise Routine</button>
+    </form>
+
+    <div id="exerciseTimer">
+        <p id="timerDisplay">00:00</p>
+        <button id="startTimer" onclick="startExerciseTimer()">Start Exercise</button>
+        <button id="resetTimer" onclick="resetExerciseTimer()">Reset Timer</button>
+    </div>
+
+    <div id="motivationalMessage"></div>
+</div>
+
+
+      </div>
+      <div class="sos">
+        <h2>SOS Button</h2>
+    <button id="sosButton" onclick="confirmSOS()">SOS</button>
+    <div id="confirmationModal" class="modal">
+        <div class="modal-content">
+            <p>Are you sure you want to send an SOS?</p>
+            <button onclick="sendSOS()">Yes</button>
+            <button onclick="cancelSOS()">No</button>
+        </div>
+    </div>
+</div>
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
